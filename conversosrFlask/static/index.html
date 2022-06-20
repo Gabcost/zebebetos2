@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Cálculos Geométricos</title>
+</head>
+<body>
+
+<div>
+  <div class="text-center d-grid gap-2 col-6 mx-auto">
+    <h1 class="display-1">Cálculos Geométricos</h1>
+  </div>
+  <hr>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>
+          Por trás de todo cálculo  <small>existe um programa que o calculou</small>
+        </h3>
+        <p class="lead">
+          Neste site, é facilitado o acesso a diferentes conversores de medidas e unidades diferentes usadas no nosso dia a dia e na matemática.
+          Criado para um projeto da disciplina de Sistemas Operacionais em Redes, do 7º semestre do curso Técnico Integrado de Informática do IFCE
+        </p>
+        <p class="fs-5">Equipe: <a href="https://github.com/iuripprata" class="link-success">Iuri Pinheiro Prata</a> e <a href="https://github.com/gabcost" class="link-success">Gabriel Bento da Costa</a></p>
+      </div>
+      <div class="col-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Conversor de Comprimento
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Navegue pelas páginas para transformar valores de metros, centímetros e quilômetros entre eles mesmo, convertendo da melhor forma que queira.</strong>
+                  <br>De metros para centímetros e depois para quilômetros,não importa a ordem, escolha qual de qual unidade você vai converter e em qual será convertida.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Conversor de Tempo
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Converta as unidades de tempo e descubra exatamente quantas horas tem em 1000 segundos. Tudo rápido e fácil</strong>
+                  <br>Escolha de qual unidade de tempo você quer inserir o valor inicial e para qual deseja transformar: Conte a passagem de segundos, minutos e horas precisamente.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Conversor de Temperatura
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Descubra o valor da temperatura em unidades que são usadas apenas em países específicos como os Estados Unidos, que não conseguem se submeter a sistemas criados por outros.</strong>
+                  <br>Confira aqui qual é a real temperatura nos EUA ou outro país diferenciado que não utilizam graus celsius. Ou transforme delas para graus celsius também.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h5 class="card-header">Comprimentos</h5>
+          <div class="card-body">
+            <p class="card-text">Você pode realizar até 6 conversões, 2 para cada unidade inicial que você decidir. O cálculo é mostrado para você na mesma hora, sem demora e de forma clara!</p>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <a href="/comp/metro/" class="btn btn-info">Metro</a>
+              <a href="/comp/km/" class="btn btn-info">Quilômetro</a>
+              <a href="/comp/cm/" class="btn btn-info">Centímetro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h5 class="card-header">Tempo</h5>
+          <div class="card-body">
+            <p class="card-text">Você pode realizar até 6 conversões, 2 para cada unidade inicial que você decidir. O cálculo é mostrado para você na mesma hora, sem demora e de forma clara!</p>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <a href="/tempo/segundo/" class="btn btn-info">Segundo</a>
+              <a href="/tempo/hora/" class="btn btn-info">Hora</a>
+              <a href="/tempo/minuto/" class="btn btn-info">Minuto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h5 class="card-header">Temperatura</h5>
+          <div class="card-body">
+            <p class="card-text">Você pode realizar até 6 conversões, 2 para cada unidade inicial que você decidir. O cálculo é mostrado para você na mesma hora, sem demora e de forma clara!</p>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <a href="/temperatura/celsius/" class="btn btn-info">Celsius</a>
+              <a href="/temperatura/fahr/" class="btn btn-info">Fahrenheit</a>
+              <a href="/temperatura/kelvin/" class="btn btn-info">Kelvin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
